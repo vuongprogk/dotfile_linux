@@ -1,0 +1,34 @@
+# Config relating to the Lazygit UI
+gui:
+  # Sometimes the main window is split in two (e.g. when the selected file has both staged and unstaged changes). This setting controls how the two sections are split.
+  # Options are:
+  # - 'horizontal': split the window horizontally
+  # - 'vertical': split the window vertically
+  # - 'flexible': (default) split the window horizontally if the window is wide enough, otherwise split vertically
+  mainPanelSplitMode: flexible
+
+  # One of 'auto' (default) | 'en' | 'zh-CN' | 'zh-TW' | 'pl' | 'nl' | 'ja' | 'ko' | 'ru'
+  language: en
+
+  nerdFontsVersion: "3"
+
+  # Default size for focused window. Window size can be changed from within Lazygit with '+' and '_' (but this won't change the default).
+  # One of: 'normal' (default) | 'half' | 'full'
+  windowSize: half
+
+  # Window border style.
+  # One of 'rounded' (default) | 'single' | 'double' | 'hidden'
+  border: rounded
+
+  filterMode: substring
+
+  # Config relating to the spinner.
+  spinner:
+    # The frames of the spinner animation.
+    frames:
+      - "◜"
+      - "◝"
+      - "◞"
+      - "◟"
+
+  statusPanelView: allBranchesLog
