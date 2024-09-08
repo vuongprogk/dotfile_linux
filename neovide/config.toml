@@ -1,0 +1,13 @@
+fork = false
+frame = "none"
+idle = true
+maximized = true 
+srgb = true 
+tabs = true
+theme = "auto"
+
+[font]
+normal = ["JetBrainsMono NF"]
+size = 18
+hinting = "full"
+edging = "antialias"
